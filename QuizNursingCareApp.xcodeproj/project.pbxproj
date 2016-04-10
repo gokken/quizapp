@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		873695971CB89A69002E9F81 /* Goukaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695961CB89A69002E9F81 /* Goukaku.png */; };
+		873695991CB89AB1002E9F81 /* Fugoukaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695981CB89AB1002E9F81 /* Fugoukaku.png */; };
+		8736959B1CB8E158002E9F81 /* btn_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8736959A1CB8E158002E9F81 /* btn_on.png */; };
+		8736959D1CB8E178002E9F81 /* mondai_back_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8736959C1CB8E178002E9F81 /* mondai_back_ground.png */; };
+		8736959F1CBA44FC002E9F81 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8736959E1CBA44FC002E9F81 /* test.csv */; };
+		873695A11CBA4B33002E9F81 /* File.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695A01CBA4B33002E9F81 /* File.csv */; };
+		873695A31CBA4F30002E9F81 /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695A21CBA4F30002E9F81 /* maru.png */; };
+		873695A51CBA4F3C002E9F81 /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695A41CBA4F3C002E9F81 /* batsu.png */; };
+		873695A91CBA54A8002E9F81 /* kenteiBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695A81CBA54A8002E9F81 /* kenteiBack.png */; };
+		873695AB1CBA5553002E9F81 /* kenteiBackOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695AA1CBA5553002E9F81 /* kenteiBackOn.png */; };
+		873695AD1CBA5AE5002E9F81 /* kaisetsuBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695AC1CBA5AE5002E9F81 /* kaisetsuBG.png */; };
+		873695AF1CBA6320002E9F81 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695AE1CBA6320002E9F81 /* logo.png */; };
+		873695B11CBA6333002E9F81 /* scoreBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695B01CBA6333002E9F81 /* scoreBG.png */; };
+		874945791CA3642500CF97C5 /* start.csv in Resources */ = {isa = PBXBuildFile; fileRef = 874945781CA3642500CF97C5 /* start.csv */; };
+		8749457B1CA364DD00CF97C5 /* top_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749457A1CA364DD00CF97C5 /* top_image.png */; };
+		8749457F1CA3698D00CF97C5 /* btn_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749457E1CA3698D00CF97C5 /* btn_off.png */; };
+		876CA8141CACD1D4003FDC8B /* kentei.csv in Resources */ = {isa = PBXBuildFile; fileRef = 876CA8131CACD1D4003FDC8B /* kentei.csv */; };
 		878B8E301C9C19BD001259C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E2F1C9C19BD001259C3 /* AppDelegate.swift */; };
 		878B8E321C9C19BD001259C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E311C9C19BD001259C3 /* ViewController.swift */; };
 		878B8E351C9C19BD001259C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878B8E331C9C19BD001259C3 /* Main.storyboard */; };
@@ -14,6 +31,12 @@
 		878B8E3A1C9C19BD001259C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878B8E381C9C19BD001259C3 /* LaunchScreen.storyboard */; };
 		878B8E451C9C19BD001259C3 /* QuizNursingCareAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E441C9C19BD001259C3 /* QuizNursingCareAppTests.swift */; };
 		878B8E501C9C19BD001259C3 /* QuizNursingCareAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E4F1C9C19BD001259C3 /* QuizNursingCareAppUITests.swift */; };
+		878B8E641C9C1BD0001259C3 /* KenteiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E631C9C1BD0001259C3 /* KenteiViewController.swift */; };
+		878B8E661C9C1BEC001259C3 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E651C9C1BEC001259C3 /* ScoreViewController.swift */; };
+		878B8E681C9C21BD001259C3 /* ChoiceQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E671C9C21BD001259C3 /* ChoiceQuestionViewController.swift */; };
+		878B8E6C1C9C2BC9001259C3 /* csv in Resources */ = {isa = PBXBuildFile; fileRef = 878B8E691C9C2BC9001259C3 /* csv */; };
+		878B8E6D1C9C2BC9001259C3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 878B8E6A1C9C2BC9001259C3 /* images */; };
+		878B8E6E1C9C2BC9001259C3 /* se in Resources */ = {isa = PBXBuildFile; fileRef = 878B8E6B1C9C2BC9001259C3 /* se */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		873695961CB89A69002E9F81 /* Goukaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Goukaku.png; path = images/Goukaku.png; sourceTree = "<group>"; };
+		873695981CB89AB1002E9F81 /* Fugoukaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fugoukaku.png; path = images/Fugoukaku.png; sourceTree = "<group>"; };
+		8736959A1CB8E158002E9F81 /* btn_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_on.png; path = images/btn_on.png; sourceTree = "<group>"; };
+		8736959C1CB8E178002E9F81 /* mondai_back_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mondai_back_ground.png; path = images/mondai_back_ground.png; sourceTree = "<group>"; };
+		8736959E1CBA44FC002E9F81 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.csv; path = ../../../../Downloads/test.csv; sourceTree = "<group>"; };
+		873695A01CBA4B33002E9F81 /* File.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.csv; sourceTree = "<group>"; };
+		873695A21CBA4F30002E9F81 /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maru.png; path = images/maru.png; sourceTree = "<group>"; };
+		873695A41CBA4F3C002E9F81 /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = batsu.png; path = images/batsu.png; sourceTree = "<group>"; };
+		873695A81CBA54A8002E9F81 /* kenteiBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kenteiBack.png; path = "../../../../Downloads/世界一受けたいiPhoneアプリ開発の授業_7/Chapter7/完成例/VeseKentei/VeseKentei/images/kenteiBack.png"; sourceTree = "<group>"; };
+		873695AA1CBA5553002E9F81 /* kenteiBackOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kenteiBackOn.png; path = images/kenteiBackOn.png; sourceTree = "<group>"; };
+		873695AC1CBA5AE5002E9F81 /* kaisetsuBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaisetsuBG.png; path = images/kaisetsuBG.png; sourceTree = "<group>"; };
+		873695AE1CBA6320002E9F81 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		873695B01CBA6333002E9F81 /* scoreBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreBG.png; path = images/scoreBG.png; sourceTree = "<group>"; };
+		874945781CA3642500CF97C5 /* start.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.csv; sourceTree = "<group>"; };
+		8749457A1CA364DD00CF97C5 /* top_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_image.png; path = images/top_image.png; sourceTree = "<group>"; };
+		8749457E1CA3698D00CF97C5 /* btn_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_off.png; path = images/btn_off.png; sourceTree = "<group>"; };
+		876CA8131CACD1D4003FDC8B /* kentei.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kentei.csv; path = csv/kentei.csv; sourceTree = "<group>"; };
 		878B8E2C1C9C19BD001259C3 /* QuizNursingCareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizNursingCareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878B8E2F1C9C19BD001259C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		878B8E311C9C19BD001259C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +87,12 @@
 		878B8E4B1C9C19BD001259C3 /* QuizNursingCareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizNursingCareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878B8E4F1C9C19BD001259C3 /* QuizNursingCareAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizNursingCareAppUITests.swift; sourceTree = "<group>"; };
 		878B8E511C9C19BD001259C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878B8E631C9C1BD0001259C3 /* KenteiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KenteiViewController.swift; sourceTree = "<group>"; };
+		878B8E651C9C1BEC001259C3 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		878B8E671C9C21BD001259C3 /* ChoiceQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceQuestionViewController.swift; sourceTree = "<group>"; };
+		878B8E691C9C2BC9001259C3 /* csv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = csv; sourceTree = "<group>"; };
+		878B8E6A1C9C2BC9001259C3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		878B8E6B1C9C2BC9001259C3 /* se */ = {isa = PBXFileReference; lastKnownFileType = folder; path = se; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +145,32 @@
 			children = (
 				878B8E2F1C9C19BD001259C3 /* AppDelegate.swift */,
 				878B8E311C9C19BD001259C3 /* ViewController.swift */,
+				878B8E631C9C1BD0001259C3 /* KenteiViewController.swift */,
+				8736959E1CBA44FC002E9F81 /* test.csv */,
+				873695A01CBA4B33002E9F81 /* File.csv */,
+				878B8E651C9C1BEC001259C3 /* ScoreViewController.swift */,
+				8749457E1CA3698D00CF97C5 /* btn_off.png */,
+				873695A81CBA54A8002E9F81 /* kenteiBack.png */,
+				873695B01CBA6333002E9F81 /* scoreBG.png */,
+				873695AC1CBA5AE5002E9F81 /* kaisetsuBG.png */,
+				873695AA1CBA5553002E9F81 /* kenteiBackOn.png */,
+				873695AE1CBA6320002E9F81 /* logo.png */,
+				8749457A1CA364DD00CF97C5 /* top_image.png */,
+				873695A21CBA4F30002E9F81 /* maru.png */,
+				873695961CB89A69002E9F81 /* Goukaku.png */,
+				873695A41CBA4F3C002E9F81 /* batsu.png */,
+				873695981CB89AB1002E9F81 /* Fugoukaku.png */,
+				8736959A1CB8E158002E9F81 /* btn_on.png */,
+				8736959C1CB8E178002E9F81 /* mondai_back_ground.png */,
+				874945781CA3642500CF97C5 /* start.csv */,
+				876CA8131CACD1D4003FDC8B /* kentei.csv */,
 				878B8E331C9C19BD001259C3 /* Main.storyboard */,
+				878B8E671C9C21BD001259C3 /* ChoiceQuestionViewController.swift */,
 				878B8E361C9C19BD001259C3 /* Assets.xcassets */,
 				878B8E381C9C19BD001259C3 /* LaunchScreen.storyboard */,
+				878B8E691C9C2BC9001259C3 /* csv */,
+				878B8E6A1C9C2BC9001259C3 /* images */,
+				878B8E6B1C9C2BC9001259C3 /* se */,
 				878B8E3B1C9C19BD001259C3 /* Info.plist */,
 			);
 			path = QuizNursingCareApp;
@@ -232,9 +301,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873695A31CBA4F30002E9F81 /* maru.png in Resources */,
+				8749457F1CA3698D00CF97C5 /* btn_off.png in Resources */,
+				873695AF1CBA6320002E9F81 /* logo.png in Resources */,
+				8736959B1CB8E158002E9F81 /* btn_on.png in Resources */,
+				873695B11CBA6333002E9F81 /* scoreBG.png in Resources */,
+				873695A11CBA4B33002E9F81 /* File.csv in Resources */,
+				8736959F1CBA44FC002E9F81 /* test.csv in Resources */,
+				873695A91CBA54A8002E9F81 /* kenteiBack.png in Resources */,
+				878B8E6E1C9C2BC9001259C3 /* se in Resources */,
+				878B8E6D1C9C2BC9001259C3 /* images in Resources */,
 				878B8E3A1C9C19BD001259C3 /* LaunchScreen.storyboard in Resources */,
+				874945791CA3642500CF97C5 /* start.csv in Resources */,
+				873695A51CBA4F3C002E9F81 /* batsu.png in Resources */,
 				878B8E371C9C19BD001259C3 /* Assets.xcassets in Resources */,
+				873695AD1CBA5AE5002E9F81 /* kaisetsuBG.png in Resources */,
+				876CA8141CACD1D4003FDC8B /* kentei.csv in Resources */,
+				8749457B1CA364DD00CF97C5 /* top_image.png in Resources */,
 				878B8E351C9C19BD001259C3 /* Main.storyboard in Resources */,
+				878B8E6C1C9C2BC9001259C3 /* csv in Resources */,
+				8736959D1CB8E178002E9F81 /* mondai_back_ground.png in Resources */,
+				873695AB1CBA5553002E9F81 /* kenteiBackOn.png in Resources */,
+				873695991CB89AB1002E9F81 /* Fugoukaku.png in Resources */,
+				873695971CB89A69002E9F81 /* Goukaku.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878B8E641C9C1BD0001259C3 /* KenteiViewController.swift in Sources */,
 				878B8E321C9C19BD001259C3 /* ViewController.swift in Sources */,
+				878B8E681C9C21BD001259C3 /* ChoiceQuestionViewController.swift in Sources */,
 				878B8E301C9C19BD001259C3 /* AppDelegate.swift in Sources */,
+				878B8E661C9C1BEC001259C3 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +577,7 @@
 				878B8E561C9C19BD001259C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878B8E571C9C19BD001259C3 /* Build configuration list for PBXNativeTarget "QuizNursingCareAppTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +586,7 @@
 				878B8E591C9C19BD001259C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878B8E5A1C9C19BD001259C3 /* Build configuration list for PBXNativeTarget "QuizNursingCareAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +595,7 @@
 				878B8E5C1C9C19BD001259C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
