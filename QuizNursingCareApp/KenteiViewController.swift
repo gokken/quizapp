@@ -42,6 +42,7 @@ class KenteiViewController: UIViewController {
     //viewDidLoadメソッド
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         //バックグラウンド画像をセット
         kaisetsuBGImageView.image = UIImage(named: "kaisetsuBG.png")
         //画面サイズを取得
@@ -92,7 +93,7 @@ class KenteiViewController: UIViewController {
         // ViewControllerのインスタンスを作成
         let viewController = ViewController()
         //loadCSVメソッドを使用し、csvArrayに検定問題を格納
-        csvArray = viewController.loadCSV("kentei")
+        csvArray = viewController.loadCSV("kentei1")
         
         //csvArrayの0行目を取り出し、カンマを区切りとしてmondaiArrayに格納
         mondaiArray = csvArray[mondaiCount].componentsSeparatedByString(",")
@@ -105,10 +106,18 @@ class KenteiViewController: UIViewController {
         answerBtn2.setTitle(mondaiArray[3],forState: .Normal)
         answerBtn3.setTitle(mondaiArray[4],forState: .Normal)
         answerBtn4.setTitle(mondaiArray[5],forState: .Normal)
+        answerBtn5.setTitle(mondaiArray[6],forState: .Normal)
+        // 選択肢ボタンのタグを設定
+        answerBtn1.tag = 0
+        answerBtn2.tag = 1
+        answerBtn3.tag = 2
+        answerBtn4.tag = 3
+        answerBtn5.tag = 4
     }
     
     @IBAction func btnAction(sender: UIButton){
-        //正解番号とボタンのtagが同じなら正解(.toInt()を使ってInt型にキャスト)
+        //正解番号とボタンのtagが同じなら正解(.Int()を使ってInt型にキャスト)
+        print(sender.tag)
         if sender.tag == Int(mondaiArray[1]){
             // ◯を表示
             judgeImageView.image = UIImage(named: "maru.png")
@@ -140,6 +149,7 @@ class KenteiViewController: UIViewController {
         answerBtn2.setTitle(mondaiArray[3],forState: .Normal)
         answerBtn3.setTitle(mondaiArray[4],forState: .Normal)
         answerBtn4.setTitle(mondaiArray[5],forState: .Normal)
+        answerBtn5.setTitle(mondaiArray[6],forState: .Normal)
         }else{
             //Storyboard SegueのIdentifierを引数に設定して画面遷移
             performSegueWithIdentifier("score", sender: nil)
@@ -148,9 +158,9 @@ class KenteiViewController: UIViewController {
     // 解説表示メソッド
     func kaisetsu(){
         // 正解表示ラベルのテキストをmondaiArrayから取得
-        seikaiLabel.text = mondaiArray[6]
+        seikaiLabel.text = mondaiArray[7]
         // 解説テキストビューのテキストをmondaiArrayから取得
-        kaisetsuTextView.text = mondaiArray[7]
+        kaisetsuTextView.text = mondaiArray[8]
         // answerBtn1のy座標取得
         let answerBtnY = answerBtn1.frame.origin.y
         //解説バックグラウンド画像を表示させるアニメーション
