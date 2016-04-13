@@ -10,96 +10,90 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="KenteiViewController" customModule="QuizNursingCareApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="jcW-et-6bw"/>
+                        <viewControllerLayoutGuide type="bottom" id="NXq-PI-Oph"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="bfi-aa-Edi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="mondai_back_ground.png" translatesAutoresizingMaskIntoConstraints="NO" id="icg-FA-9qA">
-                                <rect key="frame" x="5" y="20" width="310" height="173"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="173" id="gbh-jU-qGX"/>
-                                    <constraint firstAttribute="width" constant="310" id="qs9-QQ-yYl"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJa-mJ-y8S">
-                                <rect key="frame" x="90" y="28" width="140" height="27"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="Mwb-xf-yd8"/>
-                                    <constraint firstAttribute="width" constant="140" id="a7P-X9-Djx"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1k-Pq-rXi">
-                                <rect key="frame" x="31" y="57" width="258" height="116"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p7q-VC-Blx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mondai_back_ground.png" translatesAutoresizingMaskIntoConstraints="NO" id="icg-FA-9qA">
+                                        <rect key="frame" x="5" y="37" width="310" height="173"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJa-mJ-y8S">
+                                        <rect key="frame" x="90" y="42" width="140" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="Mwb-xf-yd8"/>
+                                            <constraint firstAttribute="width" constant="140" id="a7P-X9-Djx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B1k-Pq-rXi">
+                                        <rect key="frame" x="28" y="77" width="258" height="116"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="116" id="EkC-Ec-PXp"/>
+                                            <constraint firstAttribute="width" constant="258" id="g2g-Mq-oc2"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dMw-Fo-4yw">
+                                        <rect key="frame" x="17" y="260" width="280" height="100"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <state key="normal" title="Button" backgroundImage="btn_on.png"/>
+                                        <connections>
+                                            <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FEL-mP-XwQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bt9-kk-N0N">
+                                        <rect key="frame" x="17" y="368" width="280" height="100"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <state key="normal" title="Button" backgroundImage="btn_on.png"/>
+                                        <connections>
+                                            <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oAz-Py-fBj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JFa-2S-bnc">
+                                        <rect key="frame" x="17" y="476" width="280" height="100"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <state key="normal" title="Button" backgroundImage="btn_on.png"/>
+                                        <connections>
+                                            <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bho-vC-AW0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="D5v-gk-2ea">
+                                        <rect key="frame" x="17" y="584" width="280" height="100"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <state key="normal" title="Button" backgroundImage="btn_on.png"/>
+                                        <connections>
+                                            <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIo-oq-Zid"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="oUf-yl-GcD">
+                                        <rect key="frame" x="17" y="692" width="280" height="100"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <state key="normal" title="Button" backgroundImage="btn_on.png"/>
+                                        <connections>
+                                            <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDj-uw-hbB"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="46x-t5-z0W">
+                                        <rect key="frame" x="40" y="51" width="240" height="168"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="116" id="EkC-Ec-PXp"/>
-                                    <constraint firstAttribute="width" constant="258" id="g2g-Mq-oc2"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMw-Fo-4yw">
-                                <rect key="frame" x="20" y="219" width="280" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Button" backgroundImage="btn_on.png"/>
-                                <connections>
-                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FEL-mP-XwQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bt9-kk-N0N">
-                                <rect key="frame" x="20" y="257" width="280" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Button" backgroundImage="btn_on.png"/>
-                                <connections>
-                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oAz-Py-fBj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFa-2S-bnc">
-                                <rect key="frame" x="20" y="295" width="280" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Button" backgroundImage="btn_on.png"/>
-                                <connections>
-                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bho-vC-AW0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5v-gk-2ea">
-                                <rect key="frame" x="20" y="333" width="280" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Button" backgroundImage="btn_on.png"/>
-                                <connections>
-                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIo-oq-Zid"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUf-yl-GcD">
-                                <rect key="frame" x="20" y="371" width="280" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Button" backgroundImage="btn_on.png"/>
-                                <connections>
-                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDj-uw-hbB"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="46x-t5-z0W">
-                                <rect key="frame" x="49" y="43" width="240" height="168"/>
-                            </imageView>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="mJa-mJ-y8S" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="2u4-8w-1oz"/>
-                            <constraint firstItem="icg-FA-9qA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bli-uc-jEl"/>
-                            <constraint firstItem="B1k-Pq-rXi" firstAttribute="top" secondItem="mJa-mJ-y8S" secondAttribute="bottom" constant="2" id="d5B-CR-x22"/>
-                            <constraint firstItem="mJa-mJ-y8S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dza-wd-Rfe"/>
-                            <constraint firstItem="icg-FA-9qA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uBx-Xc-UDF"/>
-                            <constraint firstItem="B1k-Pq-rXi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yRk-wA-lO7"/>
-                        </constraints>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    </scrollView>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="800"/>
                     <connections>
                         <outlet property="answerBtn1" destination="dMw-Fo-4yw" id="Ac2-RE-A8s"/>
                         <outlet property="answerBtn2" destination="Bt9-kk-N0N" id="6Ik-hF-YO8"/>
@@ -107,6 +101,7 @@
                         <outlet property="answerBtn4" destination="D5v-gk-2ea" id="dKN-1Q-M0s"/>
                         <outlet property="answerBtn5" destination="oUf-yl-GcD" id="LNJ-KY-JTr"/>
                         <outlet property="judgeImageView" destination="46x-t5-z0W" id="LYR-ZZ-2ha"/>
+                        <outlet property="kenteiscrollview" destination="bfi-aa-Edi" id="mI0-Bs-e8P"/>
                         <outlet property="mondaiNumberLabel" destination="mJa-mJ-y8S" id="Qad-uc-vOX"/>
                         <outlet property="mondaiTextView" destination="B1k-Pq-rXi" id="dhp-oS-UGj"/>
                         <segue destination="9AC-P1-Aef" kind="presentation" identifier="score" id="3Pn-gQ-c1Z"/>
@@ -114,7 +109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1520" y="-341"/>
+            <point key="canvasLocation" x="1520" y="-717"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fll-LV-Wox">
@@ -204,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fmY-Up-ror" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1520" y="253"/>
+            <point key="canvasLocation" x="395" y="857"/>
         </scene>
         <!--Choice Question View Controller-->
         <scene sceneID="eJF-DH-CmK">
@@ -249,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K9S-ZR-tuM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="861" y="-341"/>
+            <point key="canvasLocation" x="861" y="-733"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="SgT-KZ-R7O">
@@ -296,7 +291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RQV-7n-SHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1889" y="-63"/>
+            <point key="canvasLocation" x="2249" y="-717"/>
         </scene>
     </scenes>
     <resources>

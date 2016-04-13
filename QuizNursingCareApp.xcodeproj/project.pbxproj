@@ -19,10 +19,20 @@
 		873695AF1CBA6320002E9F81 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695AE1CBA6320002E9F81 /* logo.png */; };
 		873695B11CBA6333002E9F81 /* scoreBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695B01CBA6333002E9F81 /* scoreBG.png */; };
 		873695B51CBBD26D002E9F81 /* kentei1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695B41CBBD26D002E9F81 /* kentei1.csv */; };
+		873695B71CBE59EA002E9F81 /* kentei2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695B61CBE59EA002E9F81 /* kentei2.csv */; };
+		873695B91CBE5A19002E9F81 /* kentei3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695B81CBE5A19002E9F81 /* kentei3.csv */; };
+		873695BB1CBE5A35002E9F81 /* kentei4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695BA1CBE5A35002E9F81 /* kentei4.csv */; };
+		873695BD1CBE5A43002E9F81 /* kentei5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695BC1CBE5A43002E9F81 /* kentei5.csv */; };
+		873695BF1CBE5A89002E9F81 /* kentei6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695BE1CBE5A89002E9F81 /* kentei6.csv */; };
+		873695C11CBE5A99002E9F81 /* kentei7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695C01CBE5A99002E9F81 /* kentei7.csv */; };
+		873695C31CBE5AA5002E9F81 /* kentei8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695C21CBE5AA5002E9F81 /* kentei8.csv */; };
+		873695C51CBE5AAE002E9F81 /* kentei9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695C41CBE5AAE002E9F81 /* kentei9.csv */; };
+		873695C71CBE5AB9002E9F81 /* kentei10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695C61CBE5AB9002E9F81 /* kentei10.csv */; };
+		873695C91CBE5AC3002E9F81 /* kentei11.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695C81CBE5AC3002E9F81 /* kentei11.csv */; };
+		873695CB1CBE5ACD002E9F81 /* kentei12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695CA1CBE5ACD002E9F81 /* kentei12.csv */; };
 		874945791CA3642500CF97C5 /* start.csv in Resources */ = {isa = PBXBuildFile; fileRef = 874945781CA3642500CF97C5 /* start.csv */; };
 		8749457B1CA364DD00CF97C5 /* top_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749457A1CA364DD00CF97C5 /* top_image.png */; };
 		8749457F1CA3698D00CF97C5 /* btn_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749457E1CA3698D00CF97C5 /* btn_off.png */; };
-		876CA8141CACD1D4003FDC8B /* kentei.csv in Resources */ = {isa = PBXBuildFile; fileRef = 876CA8131CACD1D4003FDC8B /* kentei.csv */; };
 		878B8E301C9C19BD001259C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E2F1C9C19BD001259C3 /* AppDelegate.swift */; };
 		878B8E321C9C19BD001259C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E311C9C19BD001259C3 /* ViewController.swift */; };
 		878B8E351C9C19BD001259C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878B8E331C9C19BD001259C3 /* Main.storyboard */; };
@@ -68,10 +78,20 @@
 		873695AE1CBA6320002E9F81 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
 		873695B01CBA6333002E9F81 /* scoreBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreBG.png; path = images/scoreBG.png; sourceTree = "<group>"; };
 		873695B41CBBD26D002E9F81 /* kentei1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei1.csv; sourceTree = "<group>"; };
+		873695B61CBE59EA002E9F81 /* kentei2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei2.csv; sourceTree = "<group>"; };
+		873695B81CBE5A19002E9F81 /* kentei3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei3.csv; sourceTree = "<group>"; };
+		873695BA1CBE5A35002E9F81 /* kentei4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei4.csv; sourceTree = "<group>"; };
+		873695BC1CBE5A43002E9F81 /* kentei5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei5.csv; sourceTree = "<group>"; };
+		873695BE1CBE5A89002E9F81 /* kentei6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei6.csv; sourceTree = "<group>"; };
+		873695C01CBE5A99002E9F81 /* kentei7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei7.csv; sourceTree = "<group>"; };
+		873695C21CBE5AA5002E9F81 /* kentei8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei8.csv; sourceTree = "<group>"; };
+		873695C41CBE5AAE002E9F81 /* kentei9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei9.csv; sourceTree = "<group>"; };
+		873695C61CBE5AB9002E9F81 /* kentei10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei10.csv; sourceTree = "<group>"; };
+		873695C81CBE5AC3002E9F81 /* kentei11.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei11.csv; sourceTree = "<group>"; };
+		873695CA1CBE5ACD002E9F81 /* kentei12.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei12.csv; sourceTree = "<group>"; };
 		874945781CA3642500CF97C5 /* start.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.csv; sourceTree = "<group>"; };
 		8749457A1CA364DD00CF97C5 /* top_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_image.png; path = images/top_image.png; sourceTree = "<group>"; };
 		8749457E1CA3698D00CF97C5 /* btn_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_off.png; path = images/btn_off.png; sourceTree = "<group>"; };
-		876CA8131CACD1D4003FDC8B /* kentei.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kentei.csv; path = csv/kentei.csv; sourceTree = "<group>"; };
 		878B8E2C1C9C19BD001259C3 /* QuizNursingCareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizNursingCareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878B8E2F1C9C19BD001259C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		878B8E311C9C19BD001259C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,8 +162,18 @@
 			isa = PBXGroup;
 			children = (
 				874945781CA3642500CF97C5 /* start.csv */,
-				876CA8131CACD1D4003FDC8B /* kentei.csv */,
 				873695B41CBBD26D002E9F81 /* kentei1.csv */,
+				873695B61CBE59EA002E9F81 /* kentei2.csv */,
+				873695B81CBE5A19002E9F81 /* kentei3.csv */,
+				873695BA1CBE5A35002E9F81 /* kentei4.csv */,
+				873695BC1CBE5A43002E9F81 /* kentei5.csv */,
+				873695BE1CBE5A89002E9F81 /* kentei6.csv */,
+				873695C01CBE5A99002E9F81 /* kentei7.csv */,
+				873695C21CBE5AA5002E9F81 /* kentei8.csv */,
+				873695C41CBE5AAE002E9F81 /* kentei9.csv */,
+				873695C61CBE5AB9002E9F81 /* kentei10.csv */,
+				873695C81CBE5AC3002E9F81 /* kentei11.csv */,
+				873695CA1CBE5ACD002E9F81 /* kentei12.csv */,
 			);
 			name = CSV;
 			sourceTree = "<group>";
@@ -314,25 +344,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873695BD1CBE5A43002E9F81 /* kentei5.csv in Resources */,
 				873695B51CBBD26D002E9F81 /* kentei1.csv in Resources */,
+				873695B71CBE59EA002E9F81 /* kentei2.csv in Resources */,
 				873695A31CBA4F30002E9F81 /* maru.png in Resources */,
+				873695BB1CBE5A35002E9F81 /* kentei4.csv in Resources */,
 				8749457F1CA3698D00CF97C5 /* btn_off.png in Resources */,
 				873695AF1CBA6320002E9F81 /* logo.png in Resources */,
 				8736959B1CB8E158002E9F81 /* btn_on.png in Resources */,
+				873695C91CBE5AC3002E9F81 /* kentei11.csv in Resources */,
+				873695C51CBE5AAE002E9F81 /* kentei9.csv in Resources */,
 				873695B11CBA6333002E9F81 /* scoreBG.png in Resources */,
+				873695C31CBE5AA5002E9F81 /* kentei8.csv in Resources */,
 				873695A91CBA54A8002E9F81 /* kenteiBack.png in Resources */,
+				873695B91CBE5A19002E9F81 /* kentei3.csv in Resources */,
 				878B8E6E1C9C2BC9001259C3 /* se in Resources */,
 				878B8E6D1C9C2BC9001259C3 /* images in Resources */,
+				873695CB1CBE5ACD002E9F81 /* kentei12.csv in Resources */,
 				878B8E3A1C9C19BD001259C3 /* LaunchScreen.storyboard in Resources */,
 				874945791CA3642500CF97C5 /* start.csv in Resources */,
 				873695A51CBA4F3C002E9F81 /* batsu.png in Resources */,
 				878B8E371C9C19BD001259C3 /* Assets.xcassets in Resources */,
 				873695AD1CBA5AE5002E9F81 /* kaisetsuBG.png in Resources */,
-				876CA8141CACD1D4003FDC8B /* kentei.csv in Resources */,
 				8749457B1CA364DD00CF97C5 /* top_image.png in Resources */,
 				878B8E351C9C19BD001259C3 /* Main.storyboard in Resources */,
 				878B8E6C1C9C2BC9001259C3 /* csv in Resources */,
+				873695C71CBE5AB9002E9F81 /* kentei10.csv in Resources */,
 				8736959D1CB8E178002E9F81 /* mondai_back_ground.png in Resources */,
+				873695BF1CBE5A89002E9F81 /* kentei6.csv in Resources */,
+				873695C11CBE5A99002E9F81 /* kentei7.csv in Resources */,
 				873695AB1CBA5553002E9F81 /* kenteiBackOn.png in Resources */,
 				873695991CB89AB1002E9F81 /* Fugoukaku.png in Resources */,
 				873695971CB89A69002E9F81 /* Goukaku.png in Resources */,

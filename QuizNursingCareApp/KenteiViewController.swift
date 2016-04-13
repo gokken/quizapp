@@ -18,6 +18,7 @@ class KenteiViewController: UIViewController {
     @IBOutlet weak var answerBtn4: UIButton!
     @IBOutlet weak var answerBtn5: UIButton!
     @IBOutlet weak var judgeImageView: UIImageView!
+    @IBOutlet var kenteiscrollview: UIScrollView!
     // kentei.csvファイルを格納する解列csvArray
     var csvArray = [String]()
     // csvArrayから取り出した問題を格納する配列mondaiArray
@@ -25,7 +26,7 @@ class KenteiViewController: UIViewController {
     
     var mondaiCount = 0      //問題をカウントする変数
     var correctCount = 0     //正解をカウントする変数
-    let total = 10           //出題数を管理する定数
+    let total = 8           //出題数を管理する定数
     // 正解&解説バックグラウンド画像
     var kaisetsuBGImageView = UIImageView()
     // 解説バックグラウンド画像のX座標
@@ -42,6 +43,8 @@ class KenteiViewController: UIViewController {
     //viewDidLoadメソッド
     override func viewDidLoad() {
         super.viewDidLoad()
+        // kenteiscrollviewの初期設定
+        kenteiscrollview.contentSize = CGSizeMake(self.view.frame.size.width, 800)
         
         //バックグラウンド画像をセット
         kaisetsuBGImageView.image = UIImage(named: "kaisetsuBG.png")
@@ -51,7 +54,7 @@ class KenteiViewController: UIViewController {
         kaisetsuBGX = Double(screenSize.width/2) - 320/2
         
         //フレームを設定。Y座標に画面の縦サイズを設定して、画面の外に設置する
-        kaisetsuBGImageView.frame = CGRect(x: kaisetsuBGX, y: Double(screenSize.height), width: 320, height: 210)
+        kaisetsuBGImageView.frame = CGRect(x: kaisetsuBGX, y: 1000, width: 320, height: 210)
         
         
         //画面上のタッチ操作を可能にする
@@ -93,7 +96,7 @@ class KenteiViewController: UIViewController {
         // ViewControllerのインスタンスを作成
         let viewController = ViewController()
         //loadCSVメソッドを使用し、csvArrayに検定問題を格納
-        csvArray = viewController.loadCSV("kentei1")
+        csvArray = viewController.loadCSV("kentei5")
         
         //csvArrayの0行目を取り出し、カンマを区切りとしてmondaiArrayに格納
         mondaiArray = csvArray[mondaiCount].componentsSeparatedByString(",")
@@ -174,10 +177,8 @@ class KenteiViewController: UIViewController {
     }
     // バックボタンメソッド
     func backBtnTapped(){
-        // 画面の縦サイズを取得
-        let screenHeight = Double(UIScreen.mainScreen().bounds.size.height)
         // 解説バックグラウンド画像を枠外に移動させるアニメーション
-        UIView.animateWithDuration(0.5, animations: {() -> Void in self.kaisetsuBGImageView.frame = CGRect(x: 0, y: screenHeight, width: 320, height: 210);})
+        UIView.animateWithDuration(0.5, animations: {() -> Void in self.kaisetsuBGImageView.frame = CGRect(x: 0, y: 1000, width: 320, height: 210);})
         
         //選択ボタンの使用を再開
         answerBtn1.enabled = true
