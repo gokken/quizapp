@@ -26,7 +26,7 @@ class KenteiViewController: UIViewController {
     
     var mondaiCount = 0      //問題をカウントする変数
     var correctCount = 0     //正解をカウントする変数
-    let total = 8           //出題数を管理する定数
+    let total = 12           //出題数を管理する定数
     // 正解&解説バックグラウンド画像
     var kaisetsuBGImageView = UIImageView()
     // 解説バックグラウンド画像のX座標
@@ -96,7 +96,7 @@ class KenteiViewController: UIViewController {
         // ViewControllerのインスタンスを作成
         let viewController = ViewController()
         //loadCSVメソッドを使用し、csvArrayに検定問題を格納
-        csvArray = viewController.loadCSV("kentei5")
+        csvArray = viewController.loadCSV("kentei12")
         
         //csvArrayの0行目を取り出し、カンマを区切りとしてmondaiArrayに格納
         mondaiArray = csvArray[mondaiCount].componentsSeparatedByString(",")
