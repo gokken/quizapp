@@ -13,7 +13,6 @@ import Foundation
 class ViewController: UIViewController {
 
     @IBOutlet weak var logoImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var bodyTextView: UITextView!
     @IBOutlet weak var startbutton: UIButton!
     @IBOutlet weak var creditLabel: UILabel!
@@ -24,17 +23,16 @@ class ViewController: UIViewController {
         //loadCSVメソッドで配列csvArrayに読み込んだCSVファイルを格納
         csvArray = loadCSV("start")
         //ImageViewに画像を設定
-        print(csvArray)
         let img:UIImage = UIImage(named:csvArray[0])!
         logoImageView.image = img
-        //titleLabelにアプリ名を設定
-        titleLabel.text = csvArray[1]
         //bodyTextViewにアプリ説明文を設定
-        bodyTextView.text = csvArray[2]
+        bodyTextView.text = csvArray[1]
         //ボタンのタイトル文字を白色に設定
         startbutton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        // ボタンの背景色を設定する
+        startbutton.backgroundColor = UIColorFromRGB(0x20b2aa)
         //creditLabelにクレジットを設定
-        creditLabel.text = csvArray[3]
+        creditLabel.text = csvArray[2]
         // ボタンを配置する場所を設定する
        // startbutton.layer.position = CGPoint(x: self.view.frame.width/2, y:self.view.frame.height/2+50)
     }
@@ -59,6 +57,16 @@ class ViewController: UIViewController {
         //配列に値を格納
         return csvArray
     }
+    
+    func UIColorFromRGB(rgbValue: UInt) -> UIColor {
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

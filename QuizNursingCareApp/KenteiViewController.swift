@@ -19,6 +19,7 @@ class KenteiViewController: UIViewController {
     @IBOutlet weak var answerBtn5: UIButton!
     @IBOutlet weak var judgeImageView: UIImageView!
     @IBOutlet var kenteiscrollview: UIScrollView!
+    
     // kentei.csvファイルを格納する解列csvArray
     var csvArray = [String]()
     // csvArrayから取り出した問題を格納する配列mondaiArray
@@ -26,7 +27,7 @@ class KenteiViewController: UIViewController {
     
     var mondaiCount = 0      //問題をカウントする変数
     var correctCount = 0     //正解をカウントする変数
-    let total = 12           //出題数を管理する定数
+    var total = 0           //出題数を管理する定数
     // 正解&解説バックグラウンド画像
     var kaisetsuBGImageView = UIImageView()
     // 解説バックグラウンド画像のX座標
@@ -39,6 +40,8 @@ class KenteiViewController: UIViewController {
     var backBtn = UIButton()
     // メニューから値を引数として受け取る
     var menuvalue = 0
+    // ViewControllerのインスタンスを作成
+    let viewController = ViewController()
     
     //viewDidLoadメソッド
     override func viewDidLoad() {
@@ -63,16 +66,19 @@ class KenteiViewController: UIViewController {
         self.view.addSubview(kaisetsuBGImageView)
         
         // 正解表示ラベルのフレームを設定
-        seikaiLabel.frame = CGRect(x: 10, y: 5, width: 300, height: 30)
+        seikaiLabel.frame = CGRect(x: 10, y: 5, width: 300, height: 80)
         // 正解ラベルのアラインメントをセンターに設定
         seikaiLabel.textAlignment = .Center
         // 正解ラベルのフォントサイズを15ポイント設定
         seikaiLabel.font = UIFont.systemFontOfSize(CGFloat(15))
+        // 正解ラベルの行数を3行に設定
+        seikaiLabel.numberOfLines = 3
         // 正解ラベルを解説バックグラウンド画像に配置
         kaisetsuBGImageView.addSubview(seikaiLabel)
         
+        
         //解説テキストビューのフレームを設定
-        kaisetsuTextView.frame = CGRect(x: 10, y: 40, width: 300, height: 140)
+        kaisetsuTextView.frame = CGRect(x: 10, y: 90, width: 300, height: 140)
         // 解説テキストビューの背景色を透明に設定
         kaisetsuTextView.backgroundColor = UIColor.clearColor()
         //解説テキストビューのフォントサイズを17ポイントに設定
@@ -92,11 +98,8 @@ class KenteiViewController: UIViewController {
         backBtn.addTarget(self, action: "backBtnTapped", forControlEvents: UIControlEvents.TouchUpInside)
         // バックボタンを解説バックグラウンド画像に配置
         kaisetsuBGImageView.addSubview(backBtn)
-
-        // ViewControllerのインスタンスを作成
-        let viewController = ViewController()
         //loadCSVメソッドを使用し、csvArrayに検定問題を格納
-        csvArray = viewController.loadCSV("kentei12")
+        csvArray = viewController.loadCSV("kentei\(menuvalue)")
         
         //csvArrayの0行目を取り出し、カンマを区切りとしてmondaiArrayに格納
         mondaiArray = csvArray[mondaiCount].componentsSeparatedByString(",")
@@ -110,6 +113,12 @@ class KenteiViewController: UIViewController {
         answerBtn3.setTitle(mondaiArray[4],forState: .Normal)
         answerBtn4.setTitle(mondaiArray[5],forState: .Normal)
         answerBtn5.setTitle(mondaiArray[6],forState: .Normal)
+        // 選択ボタンのテキストの色を指定
+        answerBtn1.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn2.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn3.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn4.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn5.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
         // 選択肢ボタンのタグを設定
         answerBtn1.tag = 0
         answerBtn2.tag = 1
@@ -192,6 +201,15 @@ class KenteiViewController: UIViewController {
         //nextProblemメソッドを呼び出す
         nextProblem()
     }
+    func UIColorFromRGB(rgbValue: UInt) -> UIColor {
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
+
     //得点画面へ値を渡す
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
