@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         let img:UIImage = UIImage(named:csvArray[0])!
         logoImageView.image = img
         //bodyTextViewにアプリ説明文を設定
-        bodyTextView.text = csvArray[1]
+       // bodyTextView.text = csvArray[1]
         //ボタンのタイトル文字を白色に設定
         startbutton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         // ボタンの背景色を設定する

@@ -29,17 +29,17 @@
 		871658641CC4627B0044DF27 /* quizback.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658631CC4627B0044DF27 /* quizback.png */; };
 		871658661CC4D9C80044DF27 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658651CC4D9C80044DF27 /* backbutton.png */; };
 		871658681CC4DE8F0044DF27 /* backbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658671CC4DE8F0044DF27 /* backbutton2.png */; };
-		8716586A1CC4E1A10044DF27 /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658691CC4E1A10044DF27 /* maru.png */; };
-		8716586C1CC4E1A80044DF27 /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8716586B1CC4E1A80044DF27 /* batsu.png */; };
-		873695971CB89A69002E9F81 /* Goukaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695961CB89A69002E9F81 /* Goukaku.png */; };
+		8716586E1CC5FAAF0044DF27 /* gizagizaunder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8716586D1CC5FAAF0044DF27 /* gizagizaunder.png */; };
+		871658701CC5FD240044DF27 /* kaisetsuBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8716586F1CC5FD240044DF27 /* kaisetsuBG.png */; };
+		871658721CC62C310044DF27 /* maru2.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658711CC62C310044DF27 /* maru2.png */; };
+		871658741CC62C370044DF27 /* batsu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658731CC62C370044DF27 /* batsu2.png */; };
+		871658781CC6340B0044DF27 /* scorebackunder.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658771CC6340B0044DF27 /* scorebackunder.png */; };
+		8716587A1CC634110044DF27 /* scorebackupside.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658791CC634110044DF27 /* scorebackupside.png */; };
+		8716587C1CC65A860044DF27 /* Goukaku2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8716587B1CC65A860044DF27 /* Goukaku2.png */; };
 		873695991CB89AB1002E9F81 /* Fugoukaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695981CB89AB1002E9F81 /* Fugoukaku.png */; };
 		8736959B1CB8E158002E9F81 /* btn_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8736959A1CB8E158002E9F81 /* btn_on.png */; };
-		8736959D1CB8E178002E9F81 /* mondai_back_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8736959C1CB8E178002E9F81 /* mondai_back_ground.png */; };
 		873695A91CBA54A8002E9F81 /* kenteiBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695A81CBA54A8002E9F81 /* kenteiBack.png */; };
 		873695AB1CBA5553002E9F81 /* kenteiBackOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695AA1CBA5553002E9F81 /* kenteiBackOn.png */; };
-		873695AD1CBA5AE5002E9F81 /* kaisetsuBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695AC1CBA5AE5002E9F81 /* kaisetsuBG.png */; };
-		873695AF1CBA6320002E9F81 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695AE1CBA6320002E9F81 /* logo.png */; };
-		873695B11CBA6333002E9F81 /* scoreBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 873695B01CBA6333002E9F81 /* scoreBG.png */; };
 		873695B51CBBD26D002E9F81 /* kentei1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695B41CBBD26D002E9F81 /* kentei1.csv */; };
 		873695B71CBE59EA002E9F81 /* kentei2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695B61CBE59EA002E9F81 /* kentei2.csv */; };
 		873695B91CBE5A19002E9F81 /* kentei3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695B81CBE5A19002E9F81 /* kentei3.csv */; };
@@ -53,8 +53,10 @@
 		873695C91CBE5AC3002E9F81 /* kentei11.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695C81CBE5AC3002E9F81 /* kentei11.csv */; };
 		873695CB1CBE5ACD002E9F81 /* kentei12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 873695CA1CBE5ACD002E9F81 /* kentei12.csv */; };
 		874945791CA3642500CF97C5 /* start.csv in Resources */ = {isa = PBXBuildFile; fileRef = 874945781CA3642500CF97C5 /* start.csv */; };
-		8749457B1CA364DD00CF97C5 /* top_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749457A1CA364DD00CF97C5 /* top_image.png */; };
 		8749457F1CA3698D00CF97C5 /* btn_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749457E1CA3698D00CF97C5 /* btn_off.png */; };
+		876995521CC8F93500589BFC /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 876995511CC8F93500589BFC /* twitter.png */; };
+		876995541CC8F93C00589BFC /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 876995531CC8F93C00589BFC /* facebook.png */; };
+		876995561CC9013200589BFC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876995551CC9013200589BFC /* Social.framework */; };
 		878B8E301C9C19BD001259C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E2F1C9C19BD001259C3 /* AppDelegate.swift */; };
 		878B8E321C9C19BD001259C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B8E311C9C19BD001259C3 /* ViewController.swift */; };
 		878B8E351C9C19BD001259C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878B8E331C9C19BD001259C3 /* Main.storyboard */; };
@@ -110,17 +112,17 @@
 		871658631CC4627B0044DF27 /* quizback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quizback.png; path = ../../../picturesample/quizback.png; sourceTree = "<group>"; };
 		871658651CC4D9C80044DF27 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton.png; path = ../../../picturesample/backbutton.png; sourceTree = "<group>"; };
 		871658671CC4DE8F0044DF27 /* backbutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton2.png; path = ../../../picturesample/backbutton2.png; sourceTree = "<group>"; };
-		871658691CC4E1A10044DF27 /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maru.png; path = ../../../picturesample/maru.png; sourceTree = "<group>"; };
-		8716586B1CC4E1A80044DF27 /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = batsu.png; path = ../../../picturesample/batsu.png; sourceTree = "<group>"; };
-		873695961CB89A69002E9F81 /* Goukaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Goukaku.png; path = images/Goukaku.png; sourceTree = "<group>"; };
+		8716586D1CC5FAAF0044DF27 /* gizagizaunder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gizagizaunder.png; path = ../../../picturesample/gizagizaunder.png; sourceTree = "<group>"; };
+		8716586F1CC5FD240044DF27 /* kaisetsuBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaisetsuBG.png; path = ../../../picturesample/kaisetsuBG.png; sourceTree = "<group>"; };
+		871658711CC62C310044DF27 /* maru2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maru2.png; path = ../../../picturesample/maru2.png; sourceTree = "<group>"; };
+		871658731CC62C370044DF27 /* batsu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = batsu2.png; path = ../../../picturesample/batsu2.png; sourceTree = "<group>"; };
+		871658771CC6340B0044DF27 /* scorebackunder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scorebackunder.png; path = ../../../picturesample/scorebackunder.png; sourceTree = "<group>"; };
+		871658791CC634110044DF27 /* scorebackupside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scorebackupside.png; path = ../../../picturesample/scorebackupside.png; sourceTree = "<group>"; };
+		8716587B1CC65A860044DF27 /* Goukaku2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Goukaku2.png; path = ../../../picturesample/Goukaku2.png; sourceTree = "<group>"; };
 		873695981CB89AB1002E9F81 /* Fugoukaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fugoukaku.png; path = images/Fugoukaku.png; sourceTree = "<group>"; };
 		8736959A1CB8E158002E9F81 /* btn_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_on.png; path = images/btn_on.png; sourceTree = "<group>"; };
-		8736959C1CB8E178002E9F81 /* mondai_back_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mondai_back_ground.png; path = images/mondai_back_ground.png; sourceTree = "<group>"; };
 		873695A81CBA54A8002E9F81 /* kenteiBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kenteiBack.png; path = "../../../../Downloads/世界一受けたいiPhoneアプリ開発の授業_7/Chapter7/完成例/VeseKentei/VeseKentei/images/kenteiBack.png"; sourceTree = "<group>"; };
 		873695AA1CBA5553002E9F81 /* kenteiBackOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kenteiBackOn.png; path = images/kenteiBackOn.png; sourceTree = "<group>"; };
-		873695AC1CBA5AE5002E9F81 /* kaisetsuBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaisetsuBG.png; path = images/kaisetsuBG.png; sourceTree = "<group>"; };
-		873695AE1CBA6320002E9F81 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
-		873695B01CBA6333002E9F81 /* scoreBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreBG.png; path = images/scoreBG.png; sourceTree = "<group>"; };
 		873695B41CBBD26D002E9F81 /* kentei1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei1.csv; sourceTree = "<group>"; };
 		873695B61CBE59EA002E9F81 /* kentei2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei2.csv; sourceTree = "<group>"; };
 		873695B81CBE5A19002E9F81 /* kentei3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei3.csv; sourceTree = "<group>"; };
@@ -134,8 +136,10 @@
 		873695C81CBE5AC3002E9F81 /* kentei11.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei11.csv; sourceTree = "<group>"; };
 		873695CA1CBE5ACD002E9F81 /* kentei12.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kentei12.csv; sourceTree = "<group>"; };
 		874945781CA3642500CF97C5 /* start.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.csv; sourceTree = "<group>"; };
-		8749457A1CA364DD00CF97C5 /* top_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_image.png; path = images/top_image.png; sourceTree = "<group>"; };
 		8749457E1CA3698D00CF97C5 /* btn_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_off.png; path = images/btn_off.png; sourceTree = "<group>"; };
+		876995511CC8F93500589BFC /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../../../picturesample/twitter.png; sourceTree = "<group>"; };
+		876995531CC8F93C00589BFC /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = ../../../picturesample/facebook.png; sourceTree = "<group>"; };
+		876995551CC9013200589BFC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		878B8E2C1C9C19BD001259C3 /* QuizNursingCareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizNursingCareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878B8E2F1C9C19BD001259C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		878B8E311C9C19BD001259C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876995561CC9013200589BFC /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,24 +205,25 @@
 				871658461CC3B3C50044DF27 /* choiceBtn11.png */,
 				871658611CC461240044DF27 /* down2.png */,
 				871658471CC3B3C50044DF27 /* choiceBtn12.png */,
+				871658771CC6340B0044DF27 /* scorebackunder.png */,
+				871658791CC634110044DF27 /* scorebackupside.png */,
 				871658591CC45D390044DF27 /* front2.png */,
 				8716585F1CC460970044DF27 /* front4.png */,
 				871658351CC382420044DF27 /* topbackground.png */,
 				873695981CB89AB1002E9F81 /* Fugoukaku.png */,
+				8716586F1CC5FD240044DF27 /* kaisetsuBG.png */,
+				876995511CC8F93500589BFC /* twitter.png */,
+				876995531CC8F93C00589BFC /* facebook.png */,
 				873695A81CBA54A8002E9F81 /* kenteiBack.png */,
-				873695B01CBA6333002E9F81 /* scoreBG.png */,
-				873695AC1CBA5AE5002E9F81 /* kaisetsuBG.png */,
 				871658391CC38E7F0044DF27 /* topbackground_logo.png */,
+				871658731CC62C370044DF27 /* batsu2.png */,
+				8716586D1CC5FAAF0044DF27 /* gizagizaunder.png */,
+				871658711CC62C310044DF27 /* maru2.png */,
 				871658551CC45B170044DF27 /* down.png */,
+				8716587B1CC65A860044DF27 /* Goukaku2.png */,
 				873695AA1CBA5553002E9F81 /* kenteiBackOn.png */,
-				871658691CC4E1A10044DF27 /* maru.png */,
-				8749457A1CA364DD00CF97C5 /* top_image.png */,
-				8716586B1CC4E1A80044DF27 /* batsu.png */,
-				873695961CB89A69002E9F81 /* Goukaku.png */,
 				871658631CC4627B0044DF27 /* quizback.png */,
-				8736959C1CB8E178002E9F81 /* mondai_back_ground.png */,
 				8736959A1CB8E158002E9F81 /* btn_on.png */,
-				873695AE1CBA6320002E9F81 /* logo.png */,
 				8749457E1CA3698D00CF97C5 /* btn_off.png */,
 			);
 			name = Image;
@@ -246,6 +252,7 @@
 		878B8E231C9C19BD001259C3 = {
 			isa = PBXGroup;
 			children = (
+				876995551CC9013200589BFC /* Social.framework */,
 				878B8E2E1C9C19BD001259C3 /* QuizNursingCareApp */,
 				878B8E431C9C19BD001259C3 /* QuizNursingCareAppTests */,
 				878B8E4E1C9C19BD001259C3 /* QuizNursingCareAppUITests */,
@@ -421,11 +428,10 @@
 				8716584B1CC3B3C50044DF27 /* choiceBtn5.png in Resources */,
 				8749457F1CA3698D00CF97C5 /* btn_off.png in Resources */,
 				8716584A1CC3B3C50044DF27 /* choiceBtn4.png in Resources */,
-				873695AF1CBA6320002E9F81 /* logo.png in Resources */,
+				876995521CC8F93500589BFC /* twitter.png in Resources */,
 				8736959B1CB8E158002E9F81 /* btn_on.png in Resources */,
 				873695C91CBE5AC3002E9F81 /* kentei11.csv in Resources */,
 				873695C51CBE5AAE002E9F81 /* kentei9.csv in Resources */,
-				873695B11CBA6333002E9F81 /* scoreBG.png in Resources */,
 				873695C31CBE5AA5002E9F81 /* kentei8.csv in Resources */,
 				871658661CC4D9C80044DF27 /* backbutton.png in Resources */,
 				871658521CC3B3C50044DF27 /* choiceBtn12.png in Resources */,
@@ -433,36 +439,38 @@
 				8716584C1CC3B3C50044DF27 /* choiceBtn6.png in Resources */,
 				871658641CC4627B0044DF27 /* quizback.png in Resources */,
 				873695A91CBA54A8002E9F81 /* kenteiBack.png in Resources */,
-				8716586C1CC4E1A80044DF27 /* batsu.png in Resources */,
 				873695B91CBE5A19002E9F81 /* kentei3.csv in Resources */,
 				8716583C1CC3A9BE0044DF27 /* choiceBtn1.png in Resources */,
 				878B8E6E1C9C2BC9001259C3 /* se in Resources */,
+				871658701CC5FD240044DF27 /* kaisetsuBG.png in Resources */,
 				871658361CC382420044DF27 /* topbackground.png in Resources */,
 				878B8E6D1C9C2BC9001259C3 /* images in Resources */,
 				8716584D1CC3B3C50044DF27 /* choiceBtn7.png in Resources */,
 				873695CB1CBE5ACD002E9F81 /* kentei12.csv in Resources */,
 				878B8E3A1C9C19BD001259C3 /* LaunchScreen.storyboard in Resources */,
+				876995541CC8F93C00589BFC /* facebook.png in Resources */,
 				8716585A1CC45D390044DF27 /* front2.png in Resources */,
 				874945791CA3642500CF97C5 /* start.csv in Resources */,
+				8716587A1CC634110044DF27 /* scorebackupside.png in Resources */,
 				878B8E371C9C19BD001259C3 /* Assets.xcassets in Resources */,
-				873695AD1CBA5AE5002E9F81 /* kaisetsuBG.png in Resources */,
-				8749457B1CA364DD00CF97C5 /* top_image.png in Resources */,
-				8716586A1CC4E1A10044DF27 /* maru.png in Resources */,
+				871658741CC62C370044DF27 /* batsu2.png in Resources */,
+				8716586E1CC5FAAF0044DF27 /* gizagizaunder.png in Resources */,
+				8716587C1CC65A860044DF27 /* Goukaku2.png in Resources */,
+				871658721CC62C310044DF27 /* maru2.png in Resources */,
 				878B8E351C9C19BD001259C3 /* Main.storyboard in Resources */,
 				871658561CC45B170044DF27 /* down.png in Resources */,
+				871658781CC6340B0044DF27 /* scorebackunder.png in Resources */,
 				871658481CC3B3C50044DF27 /* choiceBtn2.png in Resources */,
 				878B8E6C1C9C2BC9001259C3 /* csv in Resources */,
 				873695C71CBE5AB9002E9F81 /* kentei10.csv in Resources */,
 				871658681CC4DE8F0044DF27 /* backbutton2.png in Resources */,
 				871658511CC3B3C50044DF27 /* choiceBtn11.png in Resources */,
-				8736959D1CB8E178002E9F81 /* mondai_back_ground.png in Resources */,
 				873695BF1CBE5A89002E9F81 /* kentei6.csv in Resources */,
 				873695C11CBE5A99002E9F81 /* kentei7.csv in Resources */,
 				873695AB1CBA5553002E9F81 /* kenteiBackOn.png in Resources */,
 				871658491CC3B3C50044DF27 /* choiceBtn3.png in Resources */,
 				873695991CB89AB1002E9F81 /* Fugoukaku.png in Resources */,
 				8716583A1CC38E7F0044DF27 /* topbackground_logo.png in Resources */,
-				873695971CB89A69002E9F81 /* Goukaku.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

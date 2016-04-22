@@ -57,7 +57,7 @@ class KenteiViewController: UIViewController {
         kaisetsuBGX = Double(screenSize.width/2) - 320/2
         
         //フレームを設定。Y座標に画面の縦サイズを設定して、画面の外に設置する
-        kaisetsuBGImageView.frame = CGRect(x: kaisetsuBGX, y: 1000, width: 320, height: 210)
+        kaisetsuBGImageView.frame = CGRect(x: kaisetsuBGX, y: 1000, width: 320, height: 800)
         
         
         //画面上のタッチ操作を可能にする
@@ -73,6 +73,8 @@ class KenteiViewController: UIViewController {
         seikaiLabel.font = UIFont.systemFontOfSize(CGFloat(15))
         // 正解ラベルの行数を3行に設定
         seikaiLabel.numberOfLines = 3
+        // 正解ラベルの色を白色に指定
+        seikaiLabel.textColor = UIColorFromRGB(0xffffff)
         // 正解ラベルを解説バックグラウンド画像に配置
         kaisetsuBGImageView.addSubview(seikaiLabel)
         
@@ -81,8 +83,10 @@ class KenteiViewController: UIViewController {
         kaisetsuTextView.frame = CGRect(x: 10, y: 90, width: 300, height: 140)
         // 解説テキストビューの背景色を透明に設定
         kaisetsuTextView.backgroundColor = UIColor.clearColor()
-        //解説テキストビューのフォントサイズを17ポイントに設定
+        // 解説テキストビューのフォントサイズを17ポイントに設定
         kaisetsuTextView.font = UIFont.systemFontOfSize(CGFloat(17))
+        // 解説テキストビューの色を白色に指定
+        kaisetsuTextView.textColor = UIColorFromRGB(0xffffff)
         //解説テキストビューを編集できないようにする
         kaisetsuTextView.editable = false
         // 解説テキストビューを解説バックグラウンド画像に配置
@@ -90,16 +94,21 @@ class KenteiViewController: UIViewController {
         
         
         // バックボタンのフレームを設定
-        backBtn.frame = CGRect(x: 10, y: 180, width: 300, height: 30)
+        backBtn.frame = CGRect(x: 10, y: 280, width: 300, height: 30)
+        // バックボタンのテキストに文字色と、文字を出力
+        backBtn.setTitle("戻る", forState: UIControlState.Normal)
+        backBtn.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         // バックボタンに通常時と押下時の画像を設定
-        backBtn.setImage(UIImage(named: "kenteiBack.png"), forState: .Normal)
-        backBtn.setImage(UIImage(named: "kenteiBackOn.png"), forState: .Highlighted)
+        //backBtn.setImage(UIImage(named: "kenteiBack.png"), forState: .Normal)
+        //backBtn.setImage(UIImage(named: "kenteiBackOn.png"), forState: .Highlighted)
         // バックボタンにアクションを設定
         backBtn.addTarget(self, action: "backBtnTapped", forControlEvents: UIControlEvents.TouchUpInside)
         // バックボタンを解説バックグラウンド画像に配置
         kaisetsuBGImageView.addSubview(backBtn)
         //loadCSVメソッドを使用し、csvArrayに検定問題を格納
         csvArray = viewController.loadCSV("kentei\(menuvalue)")
+        
+        // choiceQuestionViewController.getMenuValue()
         
         //csvArrayの0行目を取り出し、カンマを区切りとしてmondaiArrayに格納
         mondaiArray = csvArray[mondaiCount].componentsSeparatedByString(",")
@@ -132,12 +141,12 @@ class KenteiViewController: UIViewController {
         print(sender.tag)
         if sender.tag == Int(mondaiArray[1]){
             // ◯を表示
-            judgeImageView.image = UIImage(named: "maru.png")
+            judgeImageView.image = UIImage(named: "maru2.png")
             // 正解カウントを増やす
             correctCount++
         }else{
             //間違っていたら×を表示
-            judgeImageView.image = UIImage(named: "batsu.png")
+            judgeImageView.image = UIImage(named: "batsu2.png")
         }
         //judgeImageViewを表示
         judgeImageView.hidden = false
@@ -176,7 +185,7 @@ class KenteiViewController: UIViewController {
         // answerBtn1のy座標取得
         let answerBtnY = answerBtn1.frame.origin.y
         //解説バックグラウンド画像を表示させるアニメーション
-        UIView.animateWithDuration(0.5, animations: {() -> Void in self.kaisetsuBGImageView.frame = CGRect(x: self.view.bounds.width/2 - 320/2, y: answerBtnY, width: 320, height: 210);})
+        UIView.animateWithDuration(0.5, animations: {() -> Void in self.kaisetsuBGImageView.frame = CGRect(x: self.view.bounds.width/2 - 320/2, y: answerBtnY-40, width: 320, height: 800);})
         // 選択ボタンの使用停止
         answerBtn1.enabled = false
         answerBtn2.enabled = false
@@ -187,7 +196,7 @@ class KenteiViewController: UIViewController {
     // バックボタンメソッド
     func backBtnTapped(){
         // 解説バックグラウンド画像を枠外に移動させるアニメーション
-        UIView.animateWithDuration(0.5, animations: {() -> Void in self.kaisetsuBGImageView.frame = CGRect(x: 0, y: 1000, width: 320, height: 210);})
+        UIView.animateWithDuration(0.5, animations: {() -> Void in self.kaisetsuBGImageView.frame = CGRect(x: 0, y: 1000, width: 320, height: 800);})
         
         //選択ボタンの使用を再開
         answerBtn1.enabled = true
@@ -215,6 +224,7 @@ class KenteiViewController: UIViewController {
         
         let sVC = segue.destinationViewController as! ScoreViewController
         sVC.correct = correctCount
+        sVC.totalvalue = total
     }
 
     override func didReceiveMemoryWarning() {
