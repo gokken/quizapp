@@ -188,7 +188,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-ub-aon" userLabel="Button2" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="273" y="408" width="130" height="130"/>
+                                        <rect key="frame" x="272" y="408" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="Osv-BV-SkF"/>

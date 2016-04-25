@@ -20,6 +20,8 @@ class KenteiViewController: UIViewController {
     @IBOutlet weak var judgeImageView: UIImageView!
     @IBOutlet var kenteiscrollview: UIScrollView!
     
+    var colorChoice = Color16RGBChoice()
+    
     // kentei.csvファイルを格納する解列csvArray
     var csvArray = [String]()
     // csvArrayから取り出した問題を格納する配列mondaiArray
@@ -46,6 +48,8 @@ class KenteiViewController: UIViewController {
     //viewDidLoadメソッド
     override func viewDidLoad() {
         super.viewDidLoad()
+        // mondaiTextViewを編集不可能にする
+        mondaiTextView.editable = false
         // kenteiscrollviewの初期設定
         kenteiscrollview.contentSize = CGSizeMake(self.view.frame.size.width, 800)
         
@@ -74,9 +78,10 @@ class KenteiViewController: UIViewController {
         // 正解ラベルの行数を3行に設定
         seikaiLabel.numberOfLines = 3
         // 正解ラベルの色を白色に指定
-        seikaiLabel.textColor = UIColorFromRGB(0xffffff)
+        seikaiLabel.textColor = colorChoice.UIColorFromRGB(0xffffff)
         // 正解ラベルを解説バックグラウンド画像に配置
         kaisetsuBGImageView.addSubview(seikaiLabel)
+        
         
         
         //解説テキストビューのフレームを設定
@@ -86,7 +91,7 @@ class KenteiViewController: UIViewController {
         // 解説テキストビューのフォントサイズを17ポイントに設定
         kaisetsuTextView.font = UIFont.systemFontOfSize(CGFloat(17))
         // 解説テキストビューの色を白色に指定
-        kaisetsuTextView.textColor = UIColorFromRGB(0xffffff)
+        kaisetsuTextView.textColor = colorChoice.UIColorFromRGB(0xffffff)
         //解説テキストビューを編集できないようにする
         kaisetsuTextView.editable = false
         // 解説テキストビューを解説バックグラウンド画像に配置
@@ -123,11 +128,11 @@ class KenteiViewController: UIViewController {
         answerBtn4.setTitle(mondaiArray[5],forState: .Normal)
         answerBtn5.setTitle(mondaiArray[6],forState: .Normal)
         // 選択ボタンのテキストの色を指定
-        answerBtn1.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
-        answerBtn2.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
-        answerBtn3.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
-        answerBtn4.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
-        answerBtn5.setTitleColor(UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn1.setTitleColor(colorChoice.UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn2.setTitleColor(colorChoice.UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn3.setTitleColor(colorChoice.UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn4.setTitleColor(colorChoice.UIColorFromRGB(0x2e7e32), forState: .Normal)
+        answerBtn5.setTitleColor(colorChoice.UIColorFromRGB(0x2e7e32), forState: .Normal)
         // 選択肢ボタンのタグを設定
         answerBtn1.tag = 0
         answerBtn2.tag = 1
@@ -210,18 +215,8 @@ class KenteiViewController: UIViewController {
         //nextProblemメソッドを呼び出す
         nextProblem()
     }
-    func UIColorFromRGB(rgbValue: UInt) -> UIColor {
-        return UIColor(
-            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
-            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
-            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
-            alpha: CGFloat(1.0)
-        )
-    }
-
     //得点画面へ値を渡す
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
         let sVC = segue.destinationViewController as! ScoreViewController
         sVC.correct = correctCount
         sVC.totalvalue = total
