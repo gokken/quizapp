@@ -54,14 +54,14 @@ class KenteiViewController: UIViewController {
         kenteiscrollview.contentSize = CGSizeMake(self.view.frame.size.width, 800)
         
         //バックグラウンド画像をセット
-        kaisetsuBGImageView.image = UIImage(named: "kaisetsuBG.png")
+        kaisetsuBGImageView.image = UIImage(named: "kaisetsuBGGreen.png")
         //画面サイズを取得
         let screenSize:CGSize = (UIScreen.mainScreen().bounds.size)
         //解説バックグラウンド画像のx座標(画面の中央になるように設定)
-        kaisetsuBGX = Double(screenSize.width/2) - 320/2
+        kaisetsuBGX = Double(screenSize.width/2) - 375/2
         
         //フレームを設定。Y座標に画面の縦サイズを設定して、画面の外に設置する
-        kaisetsuBGImageView.frame = CGRect(x: kaisetsuBGX, y: 1000, width: 320, height: 800)
+        kaisetsuBGImageView.frame = CGRect(x: kaisetsuBGX, y: 1000, width: 375, height: 800)
         
         
         //画面上のタッチ操作を可能にする
@@ -70,7 +70,7 @@ class KenteiViewController: UIViewController {
         self.view.addSubview(kaisetsuBGImageView)
         
         // 正解表示ラベルのフレームを設定
-        seikaiLabel.frame = CGRect(x: 10, y: 5, width: 300, height: 80)
+        seikaiLabel.frame = CGRect(x: 40, y: 5, width: 300, height: 80)
         // 正解ラベルのアラインメントをセンターに設定
         seikaiLabel.textAlignment = .Center
         // 正解ラベルのフォントサイズを15ポイント設定
@@ -85,7 +85,7 @@ class KenteiViewController: UIViewController {
         
         
         //解説テキストビューのフレームを設定
-        kaisetsuTextView.frame = CGRect(x: 10, y: 90, width: 300, height: 140)
+        kaisetsuTextView.frame = CGRect(x: 40, y: 90, width: 300, height: 140)
         // 解説テキストビューの背景色を透明に設定
         kaisetsuTextView.backgroundColor = UIColor.clearColor()
         // 解説テキストビューのフォントサイズを17ポイントに設定
@@ -99,7 +99,7 @@ class KenteiViewController: UIViewController {
         
         
         // バックボタンのフレームを設定
-        backBtn.frame = CGRect(x: 10, y: 280, width: 300, height: 30)
+        backBtn.frame = CGRect(x: 40, y: 280, width: 300, height: 30)
         // バックボタンのテキストに文字色と、文字を出力
         backBtn.setTitle("戻る", forState: UIControlState.Normal)
         backBtn.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
@@ -190,7 +190,7 @@ class KenteiViewController: UIViewController {
         // answerBtn1のy座標取得
         let answerBtnY = answerBtn1.frame.origin.y
         //解説バックグラウンド画像を表示させるアニメーション
-        UIView.animateWithDuration(0.5, animations: {() -> Void in self.kaisetsuBGImageView.frame = CGRect(x: self.view.bounds.width/2 - 320/2, y: answerBtnY-40, width: 320, height: 800);})
+        UIView.animateWithDuration(0.5, animations: {() -> Void in self.kaisetsuBGImageView.frame = CGRect(x: self.view.bounds.width/2 - 375/2, y: answerBtnY-40, width: 375, height: 800);})
         // 選択ボタンの使用停止
         answerBtn1.enabled = false
         answerBtn2.enabled = false

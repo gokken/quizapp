@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZpF-DJ-Fnu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZpF-DJ-Fnu">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Kentei View Controller-->
@@ -14,17 +15,14 @@
                         <viewControllerLayoutGuide type="bottom" id="NXq-PI-Oph"/>
                     </layoutGuides>
                     <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="bfi-aa-Edi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p7q-VC-Blx">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="quizback.png" translatesAutoresizingMaskIntoConstraints="NO" id="RSy-UE-9q7">
-                                        <rect key="frame" x="-143" y="-148" width="600" height="400"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJa-mJ-y8S">
-                                        <rect key="frame" x="90" y="42" width="140" height="27"/>
+                                        <rect key="frame" x="117" y="42" width="140" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="27" id="Mwb-xf-yd8"/>
                                             <constraint firstAttribute="width" constant="140" id="a7P-X9-Djx"/>
@@ -34,7 +32,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B1k-Pq-rXi">
-                                        <rect key="frame" x="28" y="77" width="258" height="116"/>
+                                        <rect key="frame" x="58" y="77" width="258" height="116"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="116" id="EkC-Ec-PXp"/>
                                             <constraint firstAttribute="width" constant="258" id="g2g-Mq-oc2"/>
@@ -45,7 +43,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dMw-Fo-4yw" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="260" width="320" height="100"/>
+                                        <rect key="frame" x="27" y="260" width="320" height="100"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <state key="normal" title="Button" backgroundImage="backbutton2.png"/>
                                         <connections>
@@ -53,7 +51,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bt9-kk-N0N" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="360" width="320" height="100"/>
+                                        <rect key="frame" x="27" y="360" width="320" height="100"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <state key="normal" title="Button" backgroundImage="backbutton2.png"/>
                                         <connections>
@@ -61,7 +59,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JFa-2S-bnc" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="460" width="320" height="100"/>
+                                        <rect key="frame" x="27" y="458" width="320" height="100"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <state key="normal" title="Button" backgroundImage="backbutton2.png"/>
                                         <connections>
@@ -69,7 +67,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="oUf-yl-GcD" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="659" width="320" height="100"/>
+                                        <rect key="frame" x="27" y="658" width="320" height="100"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <state key="normal" title="Button" backgroundImage="backbutton2.png"/>
                                         <connections>
@@ -77,7 +75,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="D5v-gk-2ea" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="560" width="320" height="100"/>
+                                        <rect key="frame" x="27" y="558" width="320" height="100"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <state key="normal" title="Button" backgroundImage="backbutton2.png"/>
                                         <connections>
@@ -88,7 +86,10 @@
                                         <rect key="frame" x="-140" y="767" width="600" height="400"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="46x-t5-z0W">
-                                        <rect key="frame" x="32" y="8" width="250" height="200"/>
+                                        <rect key="frame" x="62" y="17" width="250" height="200"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="quizback.png" translatesAutoresizingMaskIntoConstraints="NO" id="RSy-UE-9q7">
+                                        <rect key="frame" x="-140" y="-148" width="600" height="400"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -96,7 +97,7 @@
                         </subviews>
                     </scrollView>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="800"/>
+                    <size key="freeformSize" width="375" height="800"/>
                     <connections>
                         <outlet property="answerBtn1" destination="dMw-Fo-4yw" id="Ac2-RE-A8s"/>
                         <outlet property="answerBtn2" destination="Bt9-kk-N0N" id="6Ik-hF-YO8"/>
@@ -112,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1520" y="-717"/>
+            <point key="canvasLocation" x="1389.5" y="-803"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fll-LV-Wox">
@@ -123,33 +124,61 @@
                         <viewControllerLayoutGuide type="bottom" id="Va1-so-Udk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oRH-6c-w4o">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="I64-1v-9Ku">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lzu-6y-0bs">
-                                <rect key="frame" x="10" y="20" width="300" height="157"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAA-1T-5sH">
-                                <rect key="frame" x="0.0" y="540" width="320" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAA-1T-5sH">
+                                <rect key="frame" x="27" y="627" width="320" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="149-PG-09z"/>
+                                    <constraint firstAttribute="width" constant="320" id="BhP-gI-YMt"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylZ-Ni-HEY" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                <rect key="frame" x="10" y="481" width="300" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylZ-Ni-HEY" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
+                                <rect key="frame" x="37" y="569" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="FLo-vu-5sB"/>
+                                    <constraint firstAttribute="height" constant="40" id="kPe-SQ-NFo"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="スタート"/>
                                 <connections>
                                     <segue destination="bbo-hn-aZO" kind="presentation" id="rhh-Ch-7rK"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lzu-6y-0bs">
+                                <rect key="frame" x="36" y="51" width="302" height="158"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="302" id="5ST-P3-hak"/>
+                                    <constraint firstAttribute="height" constant="158" id="srw-GP-W7s"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iAA-1T-5sH" firstAttribute="top" secondItem="ylZ-Ni-HEY" secondAttribute="bottom" constant="18" id="1Dt-3D-4Pt"/>
+                            <constraint firstItem="iAA-1T-5sH" firstAttribute="leading" secondItem="oRH-6c-w4o" secondAttribute="leadingMargin" constant="7" id="R6h-jW-JQB"/>
+                            <constraint firstItem="lzu-6y-0bs" firstAttribute="centerX" secondItem="oRH-6c-w4o" secondAttribute="centerX" id="RAv-nu-TRv"/>
+                            <constraint firstItem="Va1-so-Udk" firstAttribute="top" secondItem="iAA-1T-5sH" secondAttribute="bottom" constant="20" id="V1L-aU-nJ6"/>
+                            <constraint firstItem="lzu-6y-0bs" firstAttribute="top" secondItem="QYS-fg-txF" secondAttribute="bottom" constant="31" id="fOu-OL-JBD"/>
+                            <constraint firstItem="iAA-1T-5sH" firstAttribute="centerX" secondItem="oRH-6c-w4o" secondAttribute="centerX" id="h5W-EO-LfG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lzu-6y-0bs" secondAttribute="trailing" constant="17" id="ieF-M6-A84"/>
+                            <constraint firstItem="iAA-1T-5sH" firstAttribute="top" secondItem="ylZ-Ni-HEY" secondAttribute="bottom" constant="18" id="kjK-Db-Tgu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iAA-1T-5sH" secondAttribute="trailing" constant="8" id="qi4-9G-uao"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ylZ-Ni-HEY" secondAttribute="trailing" constant="18" id="qor-Zx-c0C"/>
+                            <constraint firstItem="ylZ-Ni-HEY" firstAttribute="leading" secondItem="oRH-6c-w4o" secondAttribute="leadingMargin" constant="17" id="ttu-BD-tqd"/>
+                            <constraint firstItem="ylZ-Ni-HEY" firstAttribute="centerX" secondItem="oRH-6c-w4o" secondAttribute="centerX" id="zQA-Km-xYt"/>
+                            <constraint firstItem="lzu-6y-0bs" firstAttribute="leading" secondItem="oRH-6c-w4o" secondAttribute="leadingMargin" constant="16" id="zus-fU-ToQ"/>
+                        </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
                     <connections>
                         <outlet property="creditLabel" destination="iAA-1T-5sH" id="Zic-2W-rmu"/>
                         <outlet property="logoImageView" destination="lzu-6y-0bs" id="now-NO-Y0w"/>
@@ -169,14 +198,14 @@
                         <viewControllerLayoutGuide type="bottom" id="ep2-A7-Auh"/>
                     </layoutGuides>
                     <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="sKz-NN-x9i">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zJA-gj-NEI">
                                 <rect key="frame" x="-93" y="-358" width="633" height="1823"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRX-Eq-t9k" userLabel="Button1" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="100" y="408" width="130" height="130"/>
+                                        <rect key="frame" x="118" y="408" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="aHq-oQ-T7z"/>
@@ -188,7 +217,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-ub-aon" userLabel="Button2" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="272" y="408" width="130" height="130"/>
+                                        <rect key="frame" x="295" y="408" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="Osv-BV-SkF"/>
@@ -200,7 +229,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MwR-Sz-vjA" userLabel="Button3" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="100" y="588" width="130" height="130"/>
+                                        <rect key="frame" x="118" y="588" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="VpR-MV-qcq"/>
@@ -212,7 +241,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmx-QS-ftG" userLabel="Button4" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="273" y="583" width="130" height="130"/>
+                                        <rect key="frame" x="295" y="583" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="Jsl-Uu-ak1"/>
@@ -224,7 +253,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lue-r2-8A1" userLabel="Button5" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="100" y="768" width="130" height="130"/>
+                                        <rect key="frame" x="118" y="768" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="Fjw-Kl-5Ti"/>
@@ -236,7 +265,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQH-CP-CHx" userLabel="Button6" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="273" y="768" width="130" height="130"/>
+                                        <rect key="frame" x="295" y="768" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="gzL-en-40S"/>
@@ -248,7 +277,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBA-jt-82D" userLabel="Button7" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="100" y="948" width="130" height="130"/>
+                                        <rect key="frame" x="118" y="948" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="er0-ew-th0"/>
@@ -260,7 +289,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFA-IF-Vas" userLabel="Button8" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="273" y="948" width="130" height="130"/>
+                                        <rect key="frame" x="295" y="948" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="C5i-Bd-u3r"/>
@@ -272,7 +301,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMN-HK-GlG" userLabel="Button9" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="100" y="1128" width="130" height="130"/>
+                                        <rect key="frame" x="118" y="1128" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="LfK-q2-0om"/>
@@ -284,7 +313,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpw-vG-VUP" userLabel="Button10" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="273" y="1128" width="130" height="130"/>
+                                        <rect key="frame" x="295" y="1128" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="8iD-ER-MVN"/>
@@ -296,7 +325,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO1-pl-oKj" userLabel="Button11" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="100" y="1308" width="130" height="130"/>
+                                        <rect key="frame" x="118" y="1308" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="cdd-v1-oKL"/>
@@ -308,7 +337,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldH-pL-WzH" userLabel="Button12" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                        <rect key="frame" x="273" y="1308" width="130" height="130"/>
+                                        <rect key="frame" x="295" y="1308" width="130" height="130"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="4WT-CL-NKk"/>
@@ -320,70 +349,64 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="こころとからだのしくみ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwh-i7-pBT">
-                                        <rect key="frame" x="94" y="1446" width="154" height="21"/>
+                                        <rect key="frame" x="106" y="1446" width="154" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人間と尊厳の自立" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQK-o8-HAX">
-                                        <rect key="frame" x="100" y="547" width="130" height="21"/>
+                                        <rect key="frame" x="118" y="547" width="130" height="21"/>
                                         <accessibility key="accessibilityConfiguration" label="a"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="社会の理解" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYL-UD-B3j">
-                                        <rect key="frame" x="112" y="726" width="107" height="21"/>
+                                        <rect key="frame" x="130" y="726" width="107" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="介護の基本" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rce-0r-fl1">
-                                        <rect key="frame" x="282" y="726" width="111" height="21"/>
+                                        <rect key="frame" x="305" y="726" width="111" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="コミュニケーション技術" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tH3-b7-9Nn">
-                                        <rect key="frame" x="94" y="908" width="154" height="21"/>
+                                        <rect key="frame" x="106" y="906" width="154" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="生活支援技術" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GG8-a3-GQW">
-                                        <rect key="frame" x="282" y="906" width="111" height="21"/>
+                                        <rect key="frame" x="305" y="906" width="111" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="介護過程" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oD7-6K-dcn">
-                                        <rect key="frame" x="100" y="1086" width="130" height="21"/>
+                                        <rect key="frame" x="118" y="1086" width="130" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="発達と老化の理解" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M02-v5-Df2">
-                                        <rect key="frame" x="281" y="1086" width="115" height="21"/>
+                                        <rect key="frame" x="303" y="1086" width="115" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="認知症の理解" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Eq-du-6gB">
-                                        <rect key="frame" x="111" y="1266" width="107" height="21"/>
+                                        <rect key="frame" x="130" y="1266" width="107" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="障害の理解" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANA-Z6-Kh4">
-                                        <rect key="frame" x="282" y="1266" width="111" height="21"/>
+                                        <rect key="frame" x="305" y="1266" width="111" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="総合問題" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7To-N6-siX">
-                                        <rect key="frame" x="295" y="1446" width="88" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="front4.png" translatesAutoresizingMaskIntoConstraints="NO" id="eCa-uS-WIr">
@@ -393,9 +416,15 @@
                                         <rect key="frame" x="0.0" y="1469" width="600" height="400"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人間関係と コミュニケーション" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4T6-bq-xsj">
-                                        <rect key="frame" x="275" y="541" width="127" height="34"/>
+                                        <rect key="frame" x="297" y="541" width="127" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="総合問題" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7To-N6-siX">
+                                        <rect key="frame" x="316" y="1446" width="88" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -404,7 +433,7 @@
                         </subviews>
                     </scrollView>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1200"/>
+                    <size key="freeformSize" width="375" height="1200"/>
                     <connections>
                         <outlet property="scrollView" destination="sKz-NN-x9i" id="fgD-eo-8oL"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="SelectSegue" id="4KQ-lt-AG7"/>
@@ -423,11 +452,11 @@
                         <viewControllerLayoutGuide type="bottom" id="OCO-uZ-mr2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sk2-8W-8A3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Goukaku2.png" translatesAutoresizingMaskIntoConstraints="NO" id="5ok-6J-63M">
-                                <rect key="frame" x="-17" y="81" width="353" height="250"/>
+                                <rect key="frame" x="11" y="81" width="353" height="250"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="scorebackunder.png" translatesAutoresizingMaskIntoConstraints="NO" id="tTo-0q-x8s">
                                 <rect key="frame" x="-140" y="289" width="600" height="400"/>
@@ -436,32 +465,26 @@
                                 <rect key="frame" x="-162" y="-282" width="600" height="400"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zg-2H-Xo5">
-                                <rect key="frame" x="46" y="325" width="227" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDD-dn-lBh">
-                                <rect key="frame" x="46" y="354" width="227" height="21"/>
+                                <rect key="frame" x="74" y="323" width="227" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ci6-yh-JAe">
-                                <rect key="frame" x="46" y="383" width="227" height="21"/>
+                                <rect key="frame" x="74" y="448" width="227" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djb-zo-2iA">
-                                <rect key="frame" x="87" y="430" width="146" height="30"/>
+                                <rect key="frame" x="114" y="617" width="146" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="ZpF-DJ-Fnu" kind="presentation" id="Pcy-g1-pEY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9b-Nq-aRx" customClass="ZFRippleButton" customModule="QuizNursingCareApp" customModuleProvider="target">
-                                <rect key="frame" x="241" y="383" width="50" height="50"/>
+                                <rect key="frame" x="305" y="383" width="50" height="50"/>
                                 <state key="normal" image="twitter.png"/>
                                 <connections>
                                     <action selector="postTwitter:" destination="9AC-P1-Aef" eventType="touchUpInside" id="e0x-Zw-oDw"/>
@@ -474,10 +497,17 @@
                                     <action selector="postFacebook:" destination="9AC-P1-Aef" eventType="touchUpInside" id="Sys-b6-xTb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDD-dn-lBh">
+                                <rect key="frame" x="74" y="383" width="227" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
                     <connections>
                         <outlet property="goukakuTimesLabel" destination="gDD-dn-lBh" id="PAQ-n0-V05"/>
                         <outlet property="judgeImageView" destination="5ok-6J-63M" id="GcJ-iN-vCf"/>

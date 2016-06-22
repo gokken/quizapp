@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870A60791D06D07200CD0E05 /* kaisetsuBGGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 870A60781D06D07200CD0E05 /* kaisetsuBGGreen.png */; };
 		871658341CC110020044DF27 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871658331CC110020044DF27 /* ZFRippleButton.swift */; };
 		871658361CC382420044DF27 /* topbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658351CC382420044DF27 /* topbackground.png */; };
 		8716583A1CC38E7F0044DF27 /* topbackground_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658391CC38E7F0044DF27 /* topbackground_logo.png */; };
@@ -27,7 +28,6 @@
 		871658641CC4627B0044DF27 /* quizback.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658631CC4627B0044DF27 /* quizback.png */; };
 		871658681CC4DE8F0044DF27 /* backbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658671CC4DE8F0044DF27 /* backbutton2.png */; };
 		8716586E1CC5FAAF0044DF27 /* gizagizaunder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8716586D1CC5FAAF0044DF27 /* gizagizaunder.png */; };
-		871658701CC5FD240044DF27 /* kaisetsuBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8716586F1CC5FD240044DF27 /* kaisetsuBG.png */; };
 		871658721CC62C310044DF27 /* maru2.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658711CC62C310044DF27 /* maru2.png */; };
 		871658741CC62C370044DF27 /* batsu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658731CC62C370044DF27 /* batsu2.png */; };
 		871658781CC6340B0044DF27 /* scorebackunder.png in Resources */ = {isa = PBXBuildFile; fileRef = 871658771CC6340B0044DF27 /* scorebackunder.png */; };
@@ -87,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		870A60781D06D07200CD0E05 /* kaisetsuBGGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaisetsuBGGreen.png; path = ../../../picturesample/kaisetsuBGGreen.png; sourceTree = "<group>"; };
 		871658331CC110020044DF27 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
 		871658351CC382420044DF27 /* topbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topbackground.png; path = ../../../picturesample/topbackground.png; sourceTree = "<group>"; };
 		871658391CC38E7F0044DF27 /* topbackground_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topbackground_logo.png; path = ../../../picturesample/topbackground_logo.png; sourceTree = "<group>"; };
@@ -107,7 +108,6 @@
 		871658631CC4627B0044DF27 /* quizback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quizback.png; path = ../../../picturesample/quizback.png; sourceTree = "<group>"; };
 		871658671CC4DE8F0044DF27 /* backbutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton2.png; path = ../../../picturesample/backbutton2.png; sourceTree = "<group>"; };
 		8716586D1CC5FAAF0044DF27 /* gizagizaunder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gizagizaunder.png; path = ../../../picturesample/gizagizaunder.png; sourceTree = "<group>"; };
-		8716586F1CC5FD240044DF27 /* kaisetsuBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaisetsuBG.png; path = ../../../picturesample/kaisetsuBG.png; sourceTree = "<group>"; };
 		871658711CC62C310044DF27 /* maru2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maru2.png; path = ../../../picturesample/maru2.png; sourceTree = "<group>"; };
 		871658731CC62C370044DF27 /* batsu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = batsu2.png; path = ../../../picturesample/batsu2.png; sourceTree = "<group>"; };
 		871658771CC6340B0044DF27 /* scorebackunder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scorebackunder.png; path = ../../../picturesample/scorebackunder.png; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 				8716585F1CC460970044DF27 /* front4.png */,
 				871658351CC382420044DF27 /* topbackground.png */,
 				873695981CB89AB1002E9F81 /* Fugoukaku.png */,
-				8716586F1CC5FD240044DF27 /* kaisetsuBG.png */,
+				870A60781D06D07200CD0E05 /* kaisetsuBGGreen.png */,
 				876995511CC8F93500589BFC /* twitter.png */,
 				876995531CC8F93C00589BFC /* facebook.png */,
 				871658391CC38E7F0044DF27 /* topbackground_logo.png */,
@@ -431,9 +431,9 @@
 				873695B91CBE5A19002E9F81 /* kentei3.csv in Resources */,
 				8716583C1CC3A9BE0044DF27 /* choiceBtn1.png in Resources */,
 				878B8E6E1C9C2BC9001259C3 /* se in Resources */,
-				871658701CC5FD240044DF27 /* kaisetsuBG.png in Resources */,
 				871658361CC382420044DF27 /* topbackground.png in Resources */,
 				878B8E6D1C9C2BC9001259C3 /* images in Resources */,
+				870A60791D06D07200CD0E05 /* kaisetsuBGGreen.png in Resources */,
 				8716584D1CC3B3C50044DF27 /* choiceBtn7.png in Resources */,
 				873695CB1CBE5ACD002E9F81 /* kentei12.csv in Resources */,
 				878B8E3A1C9C19BD001259C3 /* LaunchScreen.storyboard in Resources */,
@@ -628,10 +628,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = QuizNursingCareApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.QuizNursingCare.QuizNursingCareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -639,10 +642,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = QuizNursingCareApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.QuizNursingCare.QuizNursingCareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
